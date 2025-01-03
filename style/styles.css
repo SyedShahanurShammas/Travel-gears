@@ -6,6 +6,94 @@
     box-sizing: border-box;
 }
 
+:root {
+    --font-color: #3A3A3A;
+}
+
 body {
     font-family: "Poppins", serif;
+}
+
+/* Header section styles start */
+header {
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+nav {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: var(--font-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    gap: 34px;
+    align-items: center;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--font-color)
+}
+
+/* Header section ends here */
+
+/* Banner starts */
+.banner {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    width: 50%;
+}
+
+.banner-title {
+    color: var(--font-color);
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.banner-content p {
+    color: var(--font-color);
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.btn_bn {
+    border-radius: 41px;
+    background: #E02C6D;
+    color: white;
+    font-weight: 700;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-picture {
+    width: 50%;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-left: 76px;
+    padding-top: 15px;
+
 }
