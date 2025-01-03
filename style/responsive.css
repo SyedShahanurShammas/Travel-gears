@@ -39,7 +39,20 @@
     .sponsore {
         flex-wrap: wrap;
         border: none;
+        align-items: center;
+        justify-content: center;
         gap: auto;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .see-more {
+        position: absolute;
+        right: 18%;
+        margin-top: 10px;
     }
 
 }
@@ -70,4 +83,5 @@
         border: none;
         gap: 35px;
     }
+
 }
