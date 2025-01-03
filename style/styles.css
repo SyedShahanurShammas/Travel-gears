@@ -64,6 +64,7 @@ ul a {
 
 .banner-content {
     width: 50%;
+
 }
 
 .banner-title {
@@ -95,5 +96,10 @@ ul a {
     background-position: top center;
     padding-left: 76px;
     padding-top: 15px;
+    order: 1;
 
 }
+
+/* Banner ends here */
+
+/* sponsores start  */
