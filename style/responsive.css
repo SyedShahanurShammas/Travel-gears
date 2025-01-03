@@ -36,6 +36,12 @@
         text-align: center;
     }
 
+    .sponsore {
+        flex-wrap: wrap;
+        border: none;
+        gap: auto;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -57,5 +63,11 @@
         width: 100%;
         text-align: center;
         margin-bottom: 40px;
+    }
+
+    .sponsore {
+        flex-wrap: wrap;
+        border: none;
+        gap: 35px;
     }
 }
